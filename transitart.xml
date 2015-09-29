@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.0" method="upgrade">
+    <name>COM_TRANSITART</name>
+    <author>Inovatica</author>
+<<<<<<< HEAD
+    <copyright>TransitArt: Material UI Timetables KIT. All rights reserved</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>office@transitart.io</authorEmail>
+    <authorUrl>http://transitart.io</authorUrl>
+=======
+>>>>>>> ed3d1b3537dc943fab8d99a69a6dbc1c086f18f0
+    <version>1.0</version>
+    
+    <files folder="site">
+        <folder>media</folder>
+        <folder>views</folder>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>transitart.php</filename>
+    </files>
+    
+    <languages folder="site/language">
+        <language tag="en-GB">en-GB/en-GB.com_transitart.ini</language>
+        <language tag="pl-PL">pl-PL/pl-PL.com_transitart.ini</language>
+    </languages>
+    
+    <administration>
+        
+        <menu link="index.php?option=com_transitart">COM_TRANSITART</menu>
+        <files folder="admin">
+            <folder>media</folder>
+            <folder>views</folder>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>transitart.php</filename>
+            <filename>transitart.xml</filename>
+        </files>
+        
+        <languages folder="admin/language">
+            <language tag="en-GB">en-GB/en-GB.com_transitart.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_transitart.sys.ini</language>
+            <language tag="pl-PL">pl-PL/pl-PL.com_transitart.ini</language>
+            <language tag="pl-PL">pl-PL/pl-PL.com_transitart.sys.ini</language>
+        </languages>
+        
+    </administration>
+    
+</extension>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.0" method="upgrade">
+    <name>com_transitart</name>
+    <author>Inovatica</author>
+<<<<<<< HEAD
+    <copyright>TransitArt: Material UI Timetables KIT. All rights reserved</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>office@transitart.io</authorEmail>
+    <authorUrl>http://transitart.io</authorUrl>
+    <version>1.0</version>
+    <description>Transitart</description>
+=======
+    <version>1.0</version>
+    <description>Transitart description</description>
+>>>>>>> ed3d1b3537dc943fab8d99a69a6dbc1c086f18f0
+</extension>

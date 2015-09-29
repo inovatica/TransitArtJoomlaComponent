@@ -1,0 +1,22 @@
+div#transitart div.transitart-logo{
+    display: block;
+    margin: 20px 0;
+}
+
+div#transitart div.transitart-logo img{
+    max-width: 500px;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+}
+
+div#transitart div.transitart-logo div.info{
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+a.transitart-link {
+    border: none;
+    background: none;
+}

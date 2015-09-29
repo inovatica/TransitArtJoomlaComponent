@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    
+    <fieldset name="preferences" label="COM_TRANSITART_CONFIGURATION_LABEL" description="COM_TRANSITART_CONFIGURATION_DESC">
+
+        <field
+            name="api_key" 
+            type="list"
+            label="COM_TRANSITART_CONFIGURATION_API_KEY_LABEL"
+            default="">
+            <option value="">---</option>
+            <option value="auckland">COM_TRANSITART_CONFIGURATION_API_KEY_VALUE_AUCKLAND</option>
+            <option value="budapeszt">COM_TRANSITART_CONFIGURATION_API_KEY_VALUE_BUDAPEST</option>
+            <option value="chicago">COM_TRANSITART_CONFIGURATION_API_KEY_VALUE_CHICAGO</option>
+            <option value="lodz">COM_TRANSITART_CONFIGURATION_API_KEY_VALUE_LODZ</option>
+            <option value="sanfrancisco">COM_TRANSITART_CONFIGURATION_API_KEY_VALUE_SAN_FRANCISCO</option>
+            <option value="toronto">COM_TRANSITART_CONFIGURATION_API_KEY_VALUE_TORONTO</option>
+            <option value="vancouver">COM_TRANSITART_CONFIGURATION_API_KEY_VALUE_VANCOUVER</option>
+            <option value="warszawa">COM_TRANSITART_CONFIGURATION_API_KEY_VALUE_WARSAW</option>
+        </field>
+        
+        <field
+            name="state" 
+            type="list"
+            label="COM_TRANSITART_CONFIGURATION_STATE_LABEL"
+            default="">
+            <option value="">---</option>
+            <option value="timetables">COM_TRANSITART_CONFIGURATION_STATE_VALUE_TIMETABLES</option>
+            <option value="router">COM_TRANSITART_CONFIGURATION_STATE_VALUE_ROUTER</option>
+        </field>
+        
+    </fieldset>
+    
+</config>
